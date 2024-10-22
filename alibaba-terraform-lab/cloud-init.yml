@@ -1,0 +1,8 @@
+#cloud-config
+package_reboot_if_required: false
+package_update: true
+package_upgrade: false
+packages:
+  - git 
+  - curl 
+  - nginx
